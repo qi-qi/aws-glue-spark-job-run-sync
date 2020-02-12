@@ -1,5 +1,5 @@
 # aws-glue-spark-job-run-sync
-## Run AWS Glue Spark Job with Synchronous Job Status Polling
+## Run - AWS Glue Spark Job with Synchronous Job Status Polling
 ```python
 import logging
 import sys
