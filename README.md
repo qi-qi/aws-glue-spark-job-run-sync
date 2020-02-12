@@ -6,15 +6,15 @@ import sys
 import time
 import boto3
 
-logging.basicConfig(stream=sys.stdout, format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
-
-job_name = "qiqi-test"
+job_name = "qiqi-test"  # Name of the glue job
 timeout = time.time() + 24 * 3600  # 24 hour from now
+
+logging.basicConfig(stream=sys.stdout, format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 glue = boto3.client('glue', region_name='eu-west-1')
 run_id = glue.start_job_run(JobName=job_name)['JobRunId']
 
-while time.time() < timeout:
+while True:
     status = glue.get_job_run(JobName=job_name, RunId=run_id)
     state = status['JobRun']['JobRunState']
     if state == 'SUCCEEDED':
@@ -23,10 +23,10 @@ while time.time() < timeout:
     elif state in ['STARTING', 'RUNNING', 'STOPPING']:
         logging.info(f'Job: {job_name}, State: {state}, RunId: {run_id}')
         time.sleep(10)  # check status every 10 seconds
+    elif time.time() > timeout:
+        raise Exception("Timeout!")
     else:
         raise Exception(f"Failed Job: {job_name}, State: {state}, RunId: {run_id}, Error: {status['JobRun']['ErrorMessage']}")
-
-raise Exception("Timeout!")
 ```
 
 ## Output in Console
@@ -43,7 +43,7 @@ raise Exception("Timeout!")
 ```python
 
 ```
-## Sample input csv
+## Input
 sample.csv:
 ```
 YEARMONTH,KEY,LOCATION
@@ -98,4 +98,7 @@ YEARMONTH,KEY,LOCATION
 201901,2215,Stockholm
 ```
 
-## Sample output csv:
+## Result
+```
+
+```
