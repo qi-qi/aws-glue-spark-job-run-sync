@@ -1,5 +1,6 @@
 # aws-glue-spark-job-run-sync
 ## Run - AWS Glue Spark Job with Synchronous Job Status Polling
+https://github.com/qi-qi/aws-glue-spark-job-run-sync/blob/master/glue-job-run.py
 ```python
 import logging
 import sys
@@ -133,5 +134,23 @@ YEARMONTH,KEY,LOCATION
 
 ## Result
 ```
-
+YEARMONTH,LOCATION,count
+201902,Stockholm,7
+201901,Stockholm,5
+201910,Stockholm,5
+201903,Stockholm,4
+201909,Stockholm,4
+201905,Stockholm,4
+201911,Stockholm,3
+201906,Stockholm,3
+201909,London,3
+201907,Stockholm,2
+201904,Stockholm,2
+201904,Beijing,1
+201907,London,1
+201903,Beijing,1
+201901,London,1
+201910,Beijing,1
+201908,Stockholm,1
+201906,Beijing,1
 ```
