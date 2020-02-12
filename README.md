@@ -1,5 +1,5 @@
 # aws-glue-spark-job-run-sync
-aws-glue-spark-job-run-sync
+Run AWS Glue Spark Job with Synchronous Job Status Polling
 ```python
 import logging
 import sys
@@ -28,3 +28,15 @@ while time.time() < timeout:
 
 raise Exception("Timeout!")
 ```
+
+Sample Output in Console
+```
+2020-02-12 23:31:06,595 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2020-02-12 23:31:07,193 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_a16dd7bab5e2a863d55580997311b3bb7f875474eb47e8da041896cc96570f8b
+2020-02-12 23:31:17,307 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_a16dd7bab5e2a863d55580997311b3bb7f875474eb47e8da041896cc96570f8b
+2020-02-12 23:31:27,411 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_a16dd7bab5e2a863d55580997311b3bb7f875474eb47e8da041896cc96570f8b
+2020-02-12 23:31:37,496 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_a16dd7bab5e2a863d55580997311b3bb7f875474eb47e8da041896cc96570f8b
+2020-02-12 23:31:47,598 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_a16dd7bab5e2a863d55580997311b3bb7f875474eb47e8da041896cc96570f8b
+...
+```
+
