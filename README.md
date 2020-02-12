@@ -49,6 +49,7 @@ while True:
 ```
 
 ## Sample glue pyspark job
+https://github.com/qi-qi/aws-glue-spark-job-run-sync/blob/master/pyspark-sample-job.py
 ```python
 import sys
 from awsglue.transforms import *
