@@ -77,7 +77,7 @@ df.groupBy("YEARMONTH", "LOCATION") \
     .mode("Overwrite") \
     .save("s3a://qiqi/result")
 ```
-## Input
+## Sample Input
 sample.csv:
 ```
 YEARMONTH,KEY,LOCATION
@@ -132,7 +132,7 @@ YEARMONTH,KEY,LOCATION
 201901,2215,Stockholm
 ```
 
-## Result
+## Sample Result
 ```
 YEARMONTH,LOCATION,count
 201902,Stockholm,7
