@@ -31,12 +31,21 @@ while True:
 
 ## Output in Console
 ```
-2020-02-12 23:46:25,336 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
-2020-02-12 23:46:26,996 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_41c4ddafa440818d9223cd4238430a2696f09b5510100770feeeb4c148b79ac7
-2020-02-12 23:46:37,116 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_41c4ddafa440818d9223cd4238430a2696f09b5510100770feeeb4c148b79ac7
-...
-2020-02-12 23:59:15,570 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_41c4ddafa440818d9223cd4238430a2696f09b5510100770feeeb4c148b79ac7
-2020-02-12 23:59:25,676 - INFO - Job: qiqi-test, State: SUCCEEDED, RunId: jr_41c4ddafa440818d9223cd4238430a2696f09b5510100770feeeb4c148b79ac7
+2020-02-13 00:32:23,635 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2020-02-13 00:32:24,183 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:32:34,297 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:32:44,431 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:32:54,542 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:33:04,659 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:33:14,767 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:33:24,870 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:33:35,001 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:33:45,099 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:33:55,201 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:34:05,339 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:34:15,451 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:34:25,557 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
+2020-02-13 00:34:35,676 - INFO - Job: qiqi-test, State: SUCCEEDED, RunId: jr_fad0bf6b22689087f8b9c5ac238769905816c7618fa15f1ae06a9f0c7fd277dc
 ```
 
 ## Sample glue pyspark job
