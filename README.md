@@ -43,8 +43,9 @@ raise Exception("Timeout!")
 ```python
 
 ```
-## Sample input csv:
-```csv
+## Sample input csv
+sample.csv:
+```
 YEARMONTH,KEY,LOCATION
 201904,2216,Stockholm
 201903,2215,Stockholm
