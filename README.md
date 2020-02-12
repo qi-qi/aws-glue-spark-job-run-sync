@@ -31,12 +31,12 @@ raise Exception("Timeout!")
 
 Sample Output in Console
 ```
-2020-02-12 23:31:06,595 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
-2020-02-12 23:31:07,193 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_a16dd7bab5e2a863d55580997311b3bb7f875474eb47e8da041896cc96570f8b
-2020-02-12 23:31:17,307 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_a16dd7bab5e2a863d55580997311b3bb7f875474eb47e8da041896cc96570f8b
-2020-02-12 23:31:27,411 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_a16dd7bab5e2a863d55580997311b3bb7f875474eb47e8da041896cc96570f8b
-2020-02-12 23:31:37,496 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_a16dd7bab5e2a863d55580997311b3bb7f875474eb47e8da041896cc96570f8b
-2020-02-12 23:31:47,598 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_a16dd7bab5e2a863d55580997311b3bb7f875474eb47e8da041896cc96570f8b
+2020-02-12 23:46:25,336 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2020-02-12 23:46:26,996 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_41c4ddafa440818d9223cd4238430a2696f09b5510100770feeeb4c148b79ac7
+2020-02-12 23:46:37,116 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_41c4ddafa440818d9223cd4238430a2696f09b5510100770feeeb4c148b79ac7
 ...
+jr_41c4ddafa440818d9223cd4238430a2696f09b5510100770feeeb4c148b79ac7
+2020-02-12 23:59:15,570 - INFO - Job: qiqi-test, State: RUNNING, RunId: jr_41c4ddafa440818d9223cd4238430a2696f09b5510100770feeeb4c148b79ac7
+2020-02-12 23:59:25,676 - INFO - Job: qiqi-test, State: SUCCEEDED, RunId: jr_41c4ddafa440818d9223cd4238430a2696f09b5510100770feeeb4c148b79ac7
 ```
 
